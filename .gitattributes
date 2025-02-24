@@ -1,0 +1,10 @@
+*.unityweb filter=lfs diff=lfs merge=lfs -text
+*.wasm filter=lfs diff=lfs merge=lfs -text
+*.data filter=lfs diff=lfs merge=lfs -text
+*.mem filter=lfs diff=lfs merge=lfs -text
+Build/WebGL.data filter=lfs diff=lfs merge=lfs -text
+Build/WebGL.wasm filter=lfs diff=lfs merge=lfs -text
+Build/WebBuild.data filter=lfs diff=lfs merge=lfs -text
+Build/WebBuild.wasm filter=lfs diff=lfs merge=lfs -text
+Build/ZooMeta.data filter=lfs diff=lfs merge=lfs -text
+Build/ZooMeta.wasm filter=lfs diff=lfs merge=lfs -text
